@@ -1,16 +1,16 @@
 {
   "$schema": "./node_modules/midi-mixer-plugin/plugin.schema.json",
-  "version": "1.0.0",
   "id": "com.midi-mixer.template",
   "name": "Template Plugin",
-  "main": "lib/main.js",
   "type": "node",
+  "version": "1.0.1",
+  "author": "MIDI Mixer",
+  "main": "lib/main.js",
   "settings": {
     "text": {
       "label": "A text field",
-      "required": false,
-      "type": "text"
+      "type": "text",
+      "required": false
     }
-  },
-  "author": "Jack Williams"
+  }
 }

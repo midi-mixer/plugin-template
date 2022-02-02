@@ -131,3 +131,4 @@ dist
 
 # Built files
 lib
+*.midiMixerPlugin

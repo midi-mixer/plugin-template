@@ -1,10 +1,21 @@
 import { Assignment, ButtonType } from "midi-mixer-plugin";
 
 /**
+ * Welcome to the plugin's main file!
+ *
+ * As defined in your plugin's `plugin.json` file, this is the file that MIDI
+ * Mixer will load when the plugin is activated by a user; this is where you
+ * will define your plugin's logic.
+ *
+ * Below are some simple examples for retrieving settings, creating assignments,
+ * and creating buttons. The rest is up to you! Have fun!
+ */
+
+/**
  * Example of retrieving the plugin's settings.
  */
 $MM.getSettings().then((settings) => {
-  console.log("settings:", settings);
+  console.log("Current settings:", settings);
 });
 
 /**
@@ -104,3 +115,25 @@ $MM.onSettingsButtonPress("run", () => {
     $MM.setSettingsStatus("status", "Done");
   }, 1000);
 });
+
+/**
+ * Welcome message and informational links.
+ */
+console.log(
+  `%c███╗   ███╗██╗██████╗ ██╗    ███╗   ███╗██╗██╗  ██╗███████╗██████╗
+████╗ ████║██║██╔══██╗██║    ████╗ ████║██║╚██╗██╔╝██╔════╝██╔══██╗
+██╔████╔██║██║██║  ██║██║    ██╔████╔██║██║ ╚███╔╝ █████╗  ██████╔╝
+██║╚██╔╝██║██║██║  ██║██║    ██║╚██╔╝██║██║ ██╔██╗ ██╔══╝  ██╔══██╗
+██║ ╚═╝ ██║██║██████╔╝██║    ██║ ╚═╝ ██║██║██╔╝ ██╗███████╗██║  ██║
+╚═╝     ╚═╝╚═╝╚═════╝ ╚═╝    ╚═╝     ╚═╝╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝`,
+  "font-family:monospace;color:#4b92b9;"
+);
+
+console.log(`Welcome to the debugging tools for a MIDI Mixer plugin.
+
+Here are a few things to try out:
+
+- Watch this console for logs and errors
+- Set breakpoints in your code in the "Sources" tab
+- Profile memory usage using the "Memory" tab
+- Profile CPU usage using the "Profiler" tab`);

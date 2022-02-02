@@ -1,0 +1,28 @@
+{
+  "name": "midi-mixer-template-plugin",
+  "version": "1.0.0",
+  "description": "A template plugin for MIDI Mixer that demonstrates how to interact with MIDI Mixer's API.",
+  "main": "lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "midi-mixer",
+    "midi",
+    "mixer",
+    "template",
+    "plugin"
+  ],
+  "author": "Jack Williams <@jpwilliams>",
+  "license": "ISC",
+  "dependencies": {
+    "midi-mixer-plugin": "^0.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}

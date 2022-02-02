@@ -5,6 +5,12 @@
   "name": "Template Plugin",
   "main": "lib/main.js",
   "type": "node",
-  "settings": {},
+  "settings": {
+    "text": {
+      "label": "A text field",
+      "required": false,
+      "type": "text"
+    }
+  },
   "author": "Jack Williams"
 }

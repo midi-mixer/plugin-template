@@ -24,6 +24,9 @@
   "dependencies": {
     "midi-mixer-plugin": "^0.4.0"
   },
+  "bundledDependencies": [
+    "midi-mixer-plugin"
+  ],
   "devDependencies": {
     "midi-mixer-cli": "^1.0.3",
     "typescript": "^4.5.5"

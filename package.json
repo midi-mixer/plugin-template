@@ -1,6 +1,6 @@
 {
   "name": "com.midi-mixer.template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A template plugin for MIDI Mixer that demonstrates how to interact with MIDI Mixer's API.",
   "main": "lib/main.js",
   "directories": {
@@ -22,13 +22,13 @@
   "author": "Jack Williams <@jpwilliams>",
   "license": "ISC",
   "dependencies": {
-    "midi-mixer-plugin": "^0.4.0"
+    "midi-mixer-plugin": "^1.0.1"
   },
   "bundledDependencies": [
     "midi-mixer-plugin"
   ],
   "devDependencies": {
-    "midi-mixer-cli": "^1.0.3",
+    "midi-mixer-cli": "^1.0.4",
     "typescript": "^4.5.5"
   }
 }

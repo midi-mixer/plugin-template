@@ -3,7 +3,7 @@
   "id": "com.midi-mixer.template",
   "name": "Template Plugin",
   "type": "node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "MIDI Mixer",
   "main": "lib/main.js",
   "settings": {
